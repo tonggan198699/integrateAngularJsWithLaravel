@@ -10,10 +10,19 @@
 
 </head>
 
-<body>
+<body ng-controller="SearchController">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-route.min.js"></script>
     <script src="js/main.js"></script>
-    <h1>fsdfds</h1>
+    <script src="js/controllers.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/popper.min.js"></script>
+
+    @include('partials.search')
+
 </body>
+
+
+
 
 </html>
